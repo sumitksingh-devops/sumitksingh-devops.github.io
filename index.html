@@ -56,13 +56,23 @@
         a:hover{
             background:#0284c7;
         }
-        .skills{
-    margin-top:30px;
+    .skills{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    margin:35px 0;
+    flex-wrap:wrap;
 }
 
 .skills img{
-    width:80px;
-    height:80px;
+    width:65px;
+    height:65px;
+    transition:0.3s;
+}
+
+.skills img:hover{
+    transform:scale(1.15);
 }
 
     </style>
@@ -81,7 +91,19 @@
 Azure | Terraform | Docker | Kubernetes | Linux | CI/CD
 </p> 
 <div class="skills">
-    <img src="images/azure-svgrepo-com.svg" alt="Azure Logo">
+
+    <img src="images/azure-svgrepo-com.svg" alt="Azure">
+
+    <img src="images/terraform-svgrepo-com.svg" alt="Terraform">
+
+    <img src="images/docker-svgrepo-com.svg" alt="Docker">
+
+    <img src="images/kubernetes-svgrepo-com.svg" alt="Kubernetes">
+
+    <img src="images/linux-svgrepo-com.svg" alt="Linux">
+
+    <img src="images/github-142-svgrepo-com.svg" alt="GitHub">
+
 </div>
 <a href="#">View My Projects</a>
 
