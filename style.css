@@ -97,3 +97,62 @@ nav ul li a:hover{
     display:flex;
     justify-content:center;
 }
+/* ===============================
+   PROFILE PHOTO
+================================= */
+
+.hero-right img{
+    width:340px;
+    height:340px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #38bdf8;
+    box-shadow:0 0 25px rgba(56,189,248,.4);
+}
+
+/* ===============================
+   SKILL LOGOS
+================================= */
+
+.skills{
+    display:flex;
+    gap:20px;
+    margin:35px 0;
+    flex-wrap:wrap;
+}
+
+.skills img{
+    width:55px;
+    height:55px;
+    object-fit:contain;
+    transition:.3s;
+}
+
+.skills img:hover{
+    transform:translateY(-6px);
+}
+
+/* ===============================
+   BUTTONS
+================================= */
+
+.buttons{
+    display:flex;
+    gap:20px;
+    margin-top:30px;
+}
+
+.buttons a{
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.buttons a:hover{
+    background:#0284c7;
+    transform:translateY(-3px);
+}
