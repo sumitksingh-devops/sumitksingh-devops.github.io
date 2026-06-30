@@ -156,3 +156,14 @@ nav ul li a:hover{
     background:#0284c7;
     transform:translateY(-3px);
 }
+/* ===============================
+   Skills Card Icons
+================================= */
+
+.skill-card img{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 20px;
+}
