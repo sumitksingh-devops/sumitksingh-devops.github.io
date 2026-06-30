@@ -167,3 +167,58 @@ nav ul li a:hover{
     display:block;
     margin:0 auto 20px;
 }
+/* ===================================
+   SKILLS SECTION
+=================================== */
+
+.skills-section{
+    padding:80px 8%;
+    background:#111827;
+}
+
+.skills-section h2{
+    text-align:center;
+    font-size:42px;
+    color:#38bdf8;
+    margin-bottom:50px;
+}
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.skill-card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    border:1px solid #334155;
+    transition:.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(56,189,248,.3);
+}
+
+.skill-card img{
+    width:65px;
+    height:65px;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 20px;
+}
+
+.skill-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.skill-card p{
+    color:#cbd5e1;
+    font-size:16px;
+    line-height:1.7;
+}
