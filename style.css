@@ -161,3 +161,37 @@ nav ul li a:hover{
     background:#0284c7;
     transform:translateY(-4px);
 }
+/* Experience Section */
+
+.experience{
+    padding:80px 8%;
+    background:#0f172a;
+}
+
+.experience h2{
+    text-align:center;
+    color:#38bdf8;
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.experience-card{
+    max-width:700px;
+    margin:auto;
+    background:#1e293b;
+    padding:35px;
+    border-radius:15px;
+    border:1px solid #334155;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.experience-card h3{
+    color:#38bdf8;
+    margin-bottom:20px;
+    font-size:28px;
+}
+
+.experience-card p{
+    margin:12px 0;
+    line-height:1.8;
+}
